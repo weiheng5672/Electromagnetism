@@ -1,0 +1,66 @@
+
+---
+
+**Example 3.1.** 
+
+- Show that the potential is constant 
+  - inside an enclosure completely surrounded by conducting material, 
+  - provided there is no charge within the enclosure.
+
+**Solution:** 
+
+- The potential on the cavity wall is some constant, \( V_0 \) 
+- so the potential inside is a function that satisfies Laplace’s equation 
+  - and has the constant value \( V_0 \) at the boundary. 
+  
+- It doesn’t take a genius to think of one solution to this problem: 
+  - \( V = V_0 \) everywhere. 
+
+- The uniqueness theorem guarantees that this is the only solution. 
+  - (It follows that the field inside an empty cavity is zero—
+  - the same result we found in 靜電屏蔽 on rather different grounds.)
+
+- The correct value on the boundaries, then it’s right. 
+- You’ll see the power of this argument when we come to the method of images. 
+- Incidentally, it is easy to improve on the first uniqueness theorem: 
+  - I assumed there was no charge inside the region in question, 
+  - so the potential obeyed Laplace’s equation, 
+  - but we may as well throw in some charge (in which case \( V \) obeys Poisson’s equation). 
+  - The argument is the same, only this time:
+
+\[
+\nabla^2 V_1 = -\frac{1}{\epsilon_0} \rho, \quad \nabla^2 V_2 = -\frac{1}{\epsilon_0} \rho
+\]
+
+so
+
+\[
+\nabla^2 V_3 = \nabla^2 V_1 - \nabla^2 V_2 = -\frac{1}{\epsilon_0} \rho + \frac{1}{\epsilon_0} \rho = 0.
+\]
+
+- Once again, the difference \( (V_3 \equiv V_1 - V_2) \) satisfies Laplace’s equation 
+- and has the value zero on all boundaries, so \( V_3 = 0 \) and hence \( V_1 = V_2 \).
+
+**Corollary:** 
+- The potential in a volume \( V \) is uniquely determined 
+  - if (a) the charge density throughout the region, 
+  - and (b) the value of \( V \) on all boundaries, are specified.
+
+---
+
+唯一性定理的威力在於，
+如果我能夠用任何方式猜到答案，
+那他就是唯一的答案
+
+這個習題，就是猜答案是個常數，
+然後確認他既滿足拉普拉斯方程式，
+又滿足邊界條件，所以他就是解，
+再藉由靜電學唯一性定理，
+他就是唯一解，真的就這樣而已，
+後半部分只是在稍微推廣第一唯一性定理的適用範圍。
+
+這個問題在靜電屏蔽，我們是透過反證法，
+假設空腔有電場，推出違反靜電學性質的結果，
+電場對封閉路徑積分不為零，矛盾，假設錯誤，
+所以，空腔沒有電場。
+
