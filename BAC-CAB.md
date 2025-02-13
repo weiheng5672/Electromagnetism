@@ -1,8 +1,8 @@
-證明 $ \mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = (\mathbf{A} \cdot \mathbf{C})\mathbf{B} - (\mathbf{A} \cdot \mathbf{B})\mathbf{C} $（即 **BAC-CAB 定則**），使用 **Levi-Civita 符號** 和 **愛因斯坦求和約定** 進行推導。
+證明 $\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = (\mathbf{A} \cdot \mathbf{C})\mathbf{B} - (\mathbf{A} \cdot \mathbf{B})\mathbf{C}$（即 **BAC-CAB 定則**），使用 **Levi-Civita 符號** 和 **愛因斯坦求和約定** 進行推導。
 
 ---
 
-为了证明向量三重积公式 $ \mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = (\mathbf{A} \cdot \mathbf{C})\mathbf{B} - (\mathbf{A} \cdot \mathbf{B})\mathbf{C} $（即 BAC-CAB 定則），我们使用 Levi-Civita 符号和爱因斯坦求和约定进行推導。
+为了证明向量三重积公式 $\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = (\mathbf{A} \cdot \mathbf{C})\mathbf{B} - (\mathbf{A} \cdot \mathbf{B})\mathbf{C}$（即 BAC-CAB 定則），我们使用 Levi-Civita 符号和爱因斯坦求和约定进行推導。
 
 首先，向量叉积可以用 Levi-Civita 符号表示。左边向量三重积 $\mathbf{A} \times (\mathbf{B} \times \mathbf{C})$ 的第 $m$ 个分量为：
 $$
