@@ -1,5 +1,5 @@
 
-### 習題4-5
+### 習題4-6
 ---
 - 一個（理想）偶極子 p 位於無限大接地導體平面上方距離 z 處。
 - 偶極子與垂直於平面的方向成角度 θ。
@@ -30,10 +30,11 @@ $$
 
 以下是重點，在這樣的座標選取下，真正的偶極子要如何表示?
 
-在這樣的極座標選取下，偶極子的位置座標是 $( 2z, \theta )$ ，在該位置的單位向量是 $\hat{r}, \hat{\theta}$
+此時座標是極座標，偶極子的位置座標是 $( 2z, \theta )$ ，在該位置的基底向量是 $\hat{r}, \hat{\theta}$
 
 偶極子與 $\hat{r}$ 的夾角是 $\theta$
 
+綜上所述，該位置的偶極子向量，以該位置的基底向量表示，如下：
 $$
 \mathbf{p} = p\cos\theta \, \hat{r} + p\sin\theta \, \hat{\theta}
 $$
@@ -50,11 +51,11 @@ $$
 $$
 
 $$
-= \frac{p^2}{4\pi\epsilon_0 (2z)^3} \left( \cos\theta\sin\theta \, \hat{\phi} - 2\sin\theta\cos\theta \, \hat{\theta} \right)
+= \frac{p^2}{4\pi\epsilon_0 (2z)^3} \left( \cos\theta\sin\theta \, \hat{\phi} - 2\sin\theta\cos\theta \, \hat{\phi} \right)
 $$
 
 $$
-= \frac{p^2\sin\theta\cos\theta}{4\pi\epsilon_0 (2z)^3} \left( -\hat{\theta} \right)
+= \frac{p^2\sin\theta\cos\theta}{4\pi\epsilon_0 (2z)^3} \left( -\hat{\phi} \right)
 $$
 
 $$
