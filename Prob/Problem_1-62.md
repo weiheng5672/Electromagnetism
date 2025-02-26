@@ -90,7 +90,7 @@ $$
 \int_S \nabla T \times d\vec{a} = - \oint_P T \, d\vec{l}
 $$
 
-令 $T = \vec{c}\cdot\vec{r} $
+令 $T = \vec{c}\cdot\vec{r}$
 
 $$
 \nabla T = \nabla (\vec{c}\cdot\vec{r})
