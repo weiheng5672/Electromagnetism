@@ -104,6 +104,10 @@ $$
 +( \vec{c} \cdot \nabla )\vec{r} + ( \vec{r} \cdot \nabla ) \vec{c} = ( \vec{c} \cdot \nabla )\vec{r}
 $$
 
+第一項消去是因為 $\vec{r}$ 是無旋場，
+
+第二項、第四項消去是因為del算子作用在常數向量上，相當於對常數微分，自然為零。
+
 等號左邊
 
 $$
@@ -111,11 +115,31 @@ $$
 $$
 
 $$
-= \int_S (\vec{c} \cdot \nabla r) \hat{r} \times d\vec{a} =\int_S (\vec{c} \cdot \hat{r}) \hat{r} \times d\vec{a}
+=\int_S \left( c_x\frac{\partial\vec{r}}{\partial x}+c_y\frac{\partial\vec{r}}{\partial y}+c_z\frac{\partial\vec{r}}{\partial z} \right) \times d\vec{a}
+$$
+
+由於 
+
+$$
+\vec{r} = x\,\hat{x} + y\,\hat{y} + z\,\hat{z}
 $$
 
 $$
-=\int_S \vec{c}\times d\vec{a} = \vec{c} \times \vec{a}
+\frac{\partial\vec{r}}{\partial x} = \hat{x} \quad \frac{\partial\vec{r}}{\partial y} = \hat{y} \quad \frac{\partial\vec{r}}{\partial z} = \hat{z}
+$$
+
+所以
+
+$$
+\int_S \left( c_x\frac{\partial\vec{r}}{\partial x}+c_y\frac{\partial\vec{r}}{\partial y}+c_z\frac{\partial\vec{r}}{\partial z} \right) \times d\vec{a}
+$$
+
+$$
+=\int_S \left( c_x\hat{x}+c_y\hat{y}+c_z\hat{z} \right) \times d\vec{a}
+$$
+
+$$
+=\left( c_x\hat{x}+c_y\hat{y}+c_z\hat{z} \right) \times \int_S d\vec{a} = \vec{c} \times \vec{a}
 $$
 
 等號右邊
@@ -127,7 +151,7 @@ $$
 綜上所述
 
 $$
--\oint_P (\vec{c}\cdot\vec{r}) d\vec{l} = \vec{c} \times \vec{a}
+\vec{c} \times \vec{a} = -\oint_P (\vec{c}\cdot\vec{r}) d\vec{l}
 $$
 
 $$
